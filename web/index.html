@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Gestion des devis | MADERA Group</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="dist/css/dashboard.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Madera Group.</a>
+     
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+        <button class="btn btn-sm">
+               Mode connecté
+              </button>
+		<button type="button" class="btn btn-default btn-sm">
+          Déconnexion
+        </button>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  <span data-feather="home"></span>
+                  Accueil <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file"></span>
+                  Devis
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="users"></span>
+                  Clients
+                </a>
+              </li>
+            </ul>
+
+            
+          </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+            <h1 class="h2">Lancement d'un nouveau projet</h1>
+            <div class="btn-toolbar mb-2 mb-md-0">
+              <div class="btn-group mr-2">
+                <button class="btn btn-sm btn-outline-secondary">Sauvegarder</button>
+                <button class="btn btn-sm btn-outline-secondary">Annuler</button>
+              </div>
+              
+            </div>
+          </div>
+			<form>
+			  <div class="form-row">
+				<div class="col-4">
+				 <label for="inputState">Nom du projet</label>
+				  <input type="text" class="form-control" placeholder="City">
+				</div>
+				<div class="col-4">
+				  <label for="inputState">Client <a href=''>(nouveau client)</a></label>
+				  <select id="inputState" class="form-control">
+					<option selected>Choisissez...</option>
+					<option>[001] Jean Dupont</option>
+					<option>[001] Jean Dupont</option>
+					<option>[001] Jean Dupont</option>
+				  </select>
+				</div>
+				<div class="col-4">
+					<label for="inputState">Référence</label>
+				  <input type="text" class="form-control" placeholder="__Mad_Bois-00108201803" disabled>
+				</div>
+			  </div>
+			</form>
+		<br >
+		
+		<div class="p-3 mb-2 bg-light text-dark">
+		<label for="inputState">Sélectionnez un produit existant <a href=''>(nouveau produit)</a></label>
+		<select class="form-control">
+			<option>Choisissez...</option>
+			<option selected>Produit_01339_Bois</option>
+		</select>
+		</div>
+		<br >
+		<div class="row">
+		  <div class="col-sm-4">
+		  <div class="card" >
+		  <div class="card-body">
+			  <h5>Produit_01339_Bois</h5><ul>
+				
+				<li>Gamme
+					<ul>
+						<li>Modèle de gamme</li>
+					</ul>
+				</li>
+				<li>Coupe de principe</li>
+				<li>Module Optionnel 1</li>
+				<li>Section</li>
+				<li>Longueur</li>
+				 <ul>
+					<li>Angle
+					 <ul>
+						<li>Angle 1</li>
+						<li>Angle 2</li>
+					</ul>
+					</li>
+						
+				 </ul>
+				</ul>
+		  </div>
+		  </div>
+		  </div>
+		  <div class="col-sm-8">
+			<div class="card">
+			  <div class="card-body">
+				<h5 class="card-title">Configuration</h5>
+				<p class="card-text">Chargement en cours...</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+		<br ><br >
+		<footer class="footer">
+      <div class="container bg-light text-dark">
+        <span ><pre>Place sticky footer content here.</pre></span>
+      </div>
+    </footer>
+        </main>
+		
+      </div>
+	  
+    </div>
+	
+	
+
+   
+    <script src="dist/js/bootstrap.min.js"></script>
+<!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+  </body>
+</html>
