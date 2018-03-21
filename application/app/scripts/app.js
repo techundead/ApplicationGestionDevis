@@ -41,6 +41,11 @@ angular
         controller: 'ClientCtrl',
         controllerAs: 'client'
       })
+      .when('/client/add', {
+        templateUrl: 'views/client/add.html',
+        controller: 'ClientAddCtrl',
+        controllerAs: 'client/add'
+      })
       .otherwise({
         redirectTo: '/'
       });
